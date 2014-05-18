@@ -13,22 +13,20 @@ Grunt Boilerplate
 
 <pre>npm install</pre>
 
-<p>And the npm will install all the node modules dev dependencies for you as described in the package.json file</p>
+<p>And the npm will install all the Grunt plugins into the node modules folder.</p>
 
-<p>For more information on each dev dependency included in this boilerplate, here are the links:</p>
+<p>For more information on each Grunt plugin listed in this boilerplate, visit the following links:</p>
 
 <ul>
-<li><a href="https://www.npmjs.org/package/grunt">grunt</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-concat">grunt-contrib-concat</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-imagemin">grunt-contrib-imagemin</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-jshint">grunt-contrib-jshint</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-nodeunit">grunt-contrib-nodeunit</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-sass">grunt-contrib-sass</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-uglify">grunt-contrib-uglify</a></li>
-<li><a href="https://www.npmjs.org/package/grunt-contrib-watch">grunt-contrib-watch</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-concat">grunt-contrib-concat</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-imagemin">grunt-contrib-imagemin</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-jshint">grunt-contrib-jshint</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-sass">grunt-contrib-sass</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-uglify">grunt-contrib-uglify</a></li>
+<li><a href="https://github.com/gruntjs/grunt-contrib-watch">grunt-contrib-watch</a></li>
 </ul>
 
-<p>Once the node_modules folder has been created, simply type:</p><pre>grunt</pre>
+<p>Once all the plugins have been installed, simply type:</p><pre>grunt</pre>
 
 <h2>Resources</h2>
 
