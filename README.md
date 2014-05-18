@@ -15,7 +15,7 @@ Grunt Boilerplate
 
 <p>And the npm will install all the node modules dev dependencies for you as described in the package.json file</p>
 
-<p>For more information on each dev dependency, here are the links:</p>
+<p>For more information on each dev dependency included in this boilerplate, here are the links:</p>
 
 <ul>
 <li><a href="https://www.npmjs.org/package/grunt">grunt</a></li>
