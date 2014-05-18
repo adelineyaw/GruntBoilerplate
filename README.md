@@ -33,7 +33,7 @@ Grunt Boilerplate
 <h2>Resources</h2>
 
 <ul>
-<li><a href="http://gruntjs.com/">Grunt</a> - The JavaScript Task Runner</li>
+<li><a href="http://gruntjs.com/">Grunt</a></li>
 <li><a href="https://www.npmjs.org/">Node Packaged Modules</li>
 <li><a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/">Grunt for People Who Think Things Like Grunt are Weird and Hard</a></li>
 <li><a href="https://www.youtube.com/watch?v=Mr2VBRdRYak">CSS-Tricks Screencast #130: First Few Minutes with Grunt</a></li>
