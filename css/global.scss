@@ -1,0 +1,30 @@
+$backgroundColor: #d5d5d5;
+$spacing: 2rem;
+$links: #35a8ff;
+
+@import "libs/normalize";
+@import "libs/owl.carousel";
+@import "owl.theme";
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: $backgroundColor;
+  padding: $spacing;
+}
+
+body {
+  padding: $spacing;
+  background: white;
+}
+
+a {
+  color: $links;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: darken($links, 25%);
+  }
+}
