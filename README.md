@@ -28,6 +28,4 @@ Grunt Boilerplate
 <li><a href="https://www.npmjs.org/package/grunt-contrib-watch">grunt-contrib-watch</a></li>
 </ul>
 
-<p>Once the node_modules folder has been created, simply type:</p><pre>grunt</pre> 
-
-<p>You will also notice a folder .sass-cache added to your project automatically.</p>
+<p>Once the node_modules folder has been created, simply type:</p><pre>grunt</pre>
