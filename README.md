@@ -15,8 +15,6 @@ Grunt Boilerplate
 <p>Run Grunt:</p>
 <pre>grunt</pre>
 
-<hr />
-
 ##Uninstall plugins
 
 <p>To uninstall the Grunt plugins, do the following:</p>
