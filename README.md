@@ -5,7 +5,7 @@ Grunt Boilerplate
 
 ##Usage
 
-<p>Clone the repo:</p>
+<p>Clone the repository:</p>
 
 <pre>git clone https://github.com/adelineyaw/GruntBoilerplate.git</pre>
 
