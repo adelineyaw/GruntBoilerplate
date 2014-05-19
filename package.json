@@ -9,11 +9,5 @@
     "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "^0.6.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/adelineyaw/Gruntboilerplate.git"
-  },
-  "author": "Adeline Yaw",
-  "homepage": "http://adelineyaw.com"
+  }
 }
