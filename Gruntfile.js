@@ -9,7 +9,11 @@ module.exports = function(grunt) {
     concat: {
     
       dist: {
-        src: ['js/libs/*.js', 'js/global.js'],
+        src: [
+            'js/libs/*.js', // All JS in the libs folder
+            'js/global.js'  // This specific file
+        ],
+
         dest: 'js/build/production.js'
       }
     },
@@ -28,8 +32,8 @@ module.exports = function(grunt) {
     uglify: {
 
       build: {
-        src: ['js/libs/*.js', 'js/global.js'], 
-        dest: 'js/build/global.min.js'
+        src: ['js/libs/*.js', 'js/global.js'], // input
+        dest: 'js/build/global.min.js' // output
       }
     },
 
@@ -42,8 +46,8 @@ module.exports = function(grunt) {
 
           files: {                         
             'css/build/global.css': 'css/global.scss'
-            }
-          }
+        }
+      }
     },
 
     watch: {
@@ -69,12 +73,12 @@ module.exports = function(grunt) {
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  // Default tasks
+  // Default task(s).
   grunt.registerTask('default', ['concat', 'imagemin', 'uglify', 'sass', 'watch']);
 
 };
