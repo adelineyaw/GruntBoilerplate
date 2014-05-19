@@ -14,6 +14,17 @@ module.exports = function(grunt) {
       }
     },
 
+    imagemin: {
+        dynamic: {
+            files: [{
+                expand: true,
+                cwd: 'images/',
+                src: ['**/*.{png,jpg,gif}'],
+                dest: 'images/build/'
+            }]
+        }
+    },
+
     uglify: {
 
       build: {
@@ -56,13 +67,14 @@ module.exports = function(grunt) {
 
   });
 
-  // Load the plugin that provides the "uglify" task.
+  // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  // Default task(s).
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
+  // Default tasks
+  grunt.registerTask('default', ['concat', 'imagemin', 'uglify', 'sass', 'watch']);
 
 };
