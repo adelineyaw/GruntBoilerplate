@@ -14,11 +14,3 @@ Grunt Boilerplate
 
 <p>Run Grunt:</p>
 <pre>grunt</pre>
-
-##Uninstall plugins
-
-<p>To uninstall the Grunt plugins, do the following:</p>
-
-<pre>npm uninstall "name-of-the-plugin"</pre>
-
-<p>This will 'unbuild' or remove the plugins from the node modules folder.</p>
