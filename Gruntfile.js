@@ -9,30 +9,16 @@ module.exports = function(grunt) {
     concat: {
     
       dist: {
-        src: [
-            'js/libs/*.js', 'js/global.js'  
-        ],
-
-        dest: 'js/build/production.js',
+        src: ['js/libs/*.js', 'js/global.js'],
+        dest: 'js/build/production.js'
       }
-    },
-
-    imagemin: {
-        dynamic: {
-            files: [{
-                expand: true,
-                cwd: 'images/',
-                src: ['**/*.{png,jpg,gif}'],
-                dest: 'images/build/'
-            }]
-        }
     },
 
     uglify: {
 
       build: {
-        src: ['js/libs/*.js', 'js/global.js'], // input
-        dest: 'js/build/global.min.js' // output
+        src: ['js/libs/*.js', 'js/global.js'], 
+        dest: 'js/build/global.min.js'
       }
     },
 
@@ -45,8 +31,8 @@ module.exports = function(grunt) {
 
           files: {                         
             'css/build/global.css': 'css/global.scss'
-        }
-      }
+            }
+          }
     },
 
     watch: {
@@ -74,10 +60,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'imagemin', 'uglify', 'sass', 'watch']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
 
 };
