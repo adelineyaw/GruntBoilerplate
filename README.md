@@ -7,7 +7,7 @@ Grunt Boilerplate
 
 <p>Clone the repository (using either HTTPS, SSH or Subversion):</p>
 
-<pre>git clone https://github.com/adelineyaw/GruntBoilerplate.git</pre>
+<pre>git clone git@github.com:adelineyaw/GruntBoilerplate.git</pre>
 
 <p>Run the NPM install:</p>
 <pre>npm install</pre>
