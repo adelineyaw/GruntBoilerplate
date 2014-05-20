@@ -13,5 +13,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/adelineyaw/Gruntboilerplate.git"
-  }
+  },
+  "author": "Adeline Yaw",
+  "homepage": "http://adelineyaw.com"
 }
